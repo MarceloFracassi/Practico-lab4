@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rof15Gn8nw59DqY3ZK3EWHSQK+RMhOpchBTCGdbptnUcU6PlTEKKbikvTxdokirAPZJv0sLs05d1VMmAM44d/Q==",
+  "dgSpecHash": "UOS6pAFUH+RhizvcLHk1rV85BOAvkDzTMbq8kZdHr496z9Ao4dlWI+gMvgVelJjeMNQ6dnVAK1U4k4EI6ACK+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Malef\\OneDrive\\Escritorio\\Tp_lab4\\Tp_lab4\\Tp_lab4.csproj",
+  "projectFilePath": "C:\\Users\\Malef\\OneDrive\\Escritorio\\Practico-lab4\\Tp_lab4\\Tp_lab4\\Tp_lab4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Malef\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Malef\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.18\\microsoft.data.sqlite.core.7.0.18.nupkg.sha512",

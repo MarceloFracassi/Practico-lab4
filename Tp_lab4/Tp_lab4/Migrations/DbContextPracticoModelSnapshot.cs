@@ -43,35 +43,35 @@ namespace Tp_lab4.Migrations
                             Id_todo_item = 1,
                             Description = "Rugby",
                             Title = "Pelota",
-                            UserId = 0
+                            UserId = 1
                         },
                         new
                         {
                             Id_todo_item = 2,
                             Description = "Futbol",
                             Title = "Pelota",
-                            UserId = 0
+                            UserId = 2
                         },
                         new
                         {
                             Id_todo_item = 3,
                             Description = "Basquet",
                             Title = "Pelota",
-                            UserId = 0
+                            UserId = 3
                         },
                         new
                         {
                             Id_todo_item = 4,
                             Description = "Golf",
                             Title = "Pelota",
-                            UserId = 0
+                            UserId = 1
                         },
                         new
                         {
                             Id_todo_item = 5,
                             Description = "Tenis",
                             Title = "Pelota",
-                            UserId = 0
+                            UserId = 2
                         });
                 });
 

@@ -7,7 +7,7 @@
 namespace Tp_lab4.Migrations
 {
     /// <inheritdoc />
-    public partial class nuevaMigracion : Migration
+    public partial class newMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -49,18 +49,6 @@ namespace Tp_lab4.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "TodoItems",
-                columns: new[] { "Id_todo_item", "Description", "Title", "UserId" },
-                values: new object[,]
-                {
-                    { 1, "Rugby", "Pelota", 0 },
-                    { 2, "Futbol", "Pelota", 0 },
-                    { 3, "Basquet", "Pelota", 0 },
-                    { 4, "Golf", "Pelota", 0 },
-                    { 5, "Tenis", "Pelota", 0 }
-                });
-
-            migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "Address", "Email", "Name" },
                 values: new object[,]
@@ -69,6 +57,18 @@ namespace Tp_lab4.Migrations
                     { 2, "Wilde 123", "Pedro@gmail.com", "Pedro" },
                     { 3, "Argentino 123", "Ana@gmail.com", "Ana" },
                     { 4, "Cordoba 123", "Sofia@gmail.com", "Sofia" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "TodoItems",
+                columns: new[] { "Id_todo_item", "Description", "Title", "UserId" },
+                values: new object[,]
+                {
+                    { 1, "Rugby", "Pelota", 1 },
+                    { 2, "Futbol", "Pelota", 2 },
+                    { 3, "Basquet", "Pelota", 3 },
+                    { 4, "Golf", "Pelota", 1 },
+                    { 5, "Tenis", "Pelota", 2 }
                 });
 
             migrationBuilder.CreateIndex(

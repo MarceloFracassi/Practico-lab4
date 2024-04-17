@@ -15,5 +15,9 @@ namespace Tp_lab4.Service
         {
             return _context.TodoItems.FirstOrDefault(p => p.Id_todo_item == Id);
         }
+        public List<TodoItem> GetAllTodoItems()
+        {
+            return _context.TodoItems.ToList();
+        }
     }
 }

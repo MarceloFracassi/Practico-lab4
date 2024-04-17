@@ -51,31 +51,36 @@ namespace Practico_labIV.dbContext
                 {
                     Id_todo_item = 1,
                     Title = "Pelota",
-                    Description = "Rugby"
+                    Description = "Rugby",
+                    UserId = 1
                 },
                 new TodoItem
                 {
                     Id_todo_item = 2,
                     Title = "Pelota",
-                    Description = "Futbol"
+                    Description = "Futbol",
+                    UserId = 2
                 },
                 new TodoItem
                 {
                     Id_todo_item = 3,
                     Title = "Pelota",
-                    Description = "Basquet"
+                    Description = "Basquet",
+                    UserId = 3
                 },
                 new TodoItem
                 {
                     Id_todo_item = 4,
                     Title = "Pelota",
-                    Description = "Golf"
+                    Description = "Golf",
+                    UserId = 1
                 },
                 new TodoItem
                 {
                     Id_todo_item = 5,
                     Title = "Pelota",
-                    Description = "Tenis"
+                    Description = "Tenis", 
+                    UserId = 2
                 }
             );
 

@@ -1725,11 +1725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Malef\\OneDrive\\Escritorio\\Tp_lab4\\Tp_lab4\\Tp_lab4.csproj",
+      "projectUniqueName": "C:\\Users\\Malef\\OneDrive\\Escritorio\\Practico-lab4\\Tp_lab4\\Tp_lab4\\Tp_lab4.csproj",
       "projectName": "Tp_lab4",
-      "projectPath": "C:\\Users\\Malef\\OneDrive\\Escritorio\\Tp_lab4\\Tp_lab4\\Tp_lab4.csproj",
+      "projectPath": "C:\\Users\\Malef\\OneDrive\\Escritorio\\Practico-lab4\\Tp_lab4\\Tp_lab4\\Tp_lab4.csproj",
       "packagesPath": "C:\\Users\\Malef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Malef\\OneDrive\\Escritorio\\Tp_lab4\\Tp_lab4\\obj\\",
+      "outputPath": "C:\\Users\\Malef\\OneDrive\\Escritorio\\Practico-lab4\\Tp_lab4\\Tp_lab4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Malef\\AppData\\Roaming\\NuGet\\NuGet.Config",

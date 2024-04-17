@@ -12,7 +12,6 @@ namespace Tp_lab4.Entities
         public string? Email { get; set; }
         public string? Address { get; set; }
 
-        public List<TodoItem> TodoItems { get; set; } = new List<TodoItem>();
-    }
+        public List<TodoItem> TodoItems { get; set; }
 }
 

@@ -10,8 +10,8 @@ using Practico_labIV.dbContext;
 namespace Tp_lab4.Migrations
 {
     [DbContext(typeof(DbContextPractico))]
-    [Migration("20240415171024_nuevaMigracion")]
-    partial class nuevaMigracion
+    [Migration("20240417203918_newMigration")]
+    partial class newMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,35 +46,35 @@ namespace Tp_lab4.Migrations
                             Id_todo_item = 1,
                             Description = "Rugby",
                             Title = "Pelota",
-                            UserId = 0
+                            UserId = 1
                         },
                         new
                         {
                             Id_todo_item = 2,
                             Description = "Futbol",
                             Title = "Pelota",
-                            UserId = 0
+                            UserId = 2
                         },
                         new
                         {
                             Id_todo_item = 3,
                             Description = "Basquet",
                             Title = "Pelota",
-                            UserId = 0
+                            UserId = 3
                         },
                         new
                         {
                             Id_todo_item = 4,
                             Description = "Golf",
                             Title = "Pelota",
-                            UserId = 0
+                            UserId = 1
                         },
                         new
                         {
                             Id_todo_item = 5,
                             Description = "Tenis",
                             Title = "Pelota",
-                            UserId = 0
+                            UserId = 2
                         });
                 });
 
